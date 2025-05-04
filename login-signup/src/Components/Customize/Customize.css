@@ -1,0 +1,182 @@
+.customize-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+.customize-body .customize-image {
+  flex: 1;
+  max-width: 50%;
+  margin-right: 20px;
+}
+.customize-page {
+  background-color: #DCD2C8;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: auto;
+}
+.container-footer-c {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+.color-swatch {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+.color-swatch.selected {
+  border: 2px solid #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.customize-page h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+.custom-detail p {
+  margin-bottom: 0.5rem;
+}
+
+.customize-page h4,
+.customize-page h5 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;  
+}
+.customize-page h4 {
+  font-size: 1.8rem;
+}
+
+.text-overlay p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: white; /* You can adjust the text color */
+}
+
+.text-input-section {
+  margin-top: 20px;
+}
+
+.text-input-section input {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.underline-c {
+  
+  height: 4px;
+  background: #a97455;
+  border-radius: 5px;
+}
+.custom-options button {
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+.custom-detail {
+  min-height: 400px;
+}
+
+.card-img-top {
+  object-fit: contain;
+  height: 200px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card-text {
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+.card-price {
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+  background-color: #b9bcbe;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+footer a {
+  color: #333;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.custom-preview {
+  text-align: center;
+  position: relative;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.custom-detail {
+  width: 100%;
+  max-width: 100%;
+}
+.custom-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.custom-preview .overlay {
+  position: relative;
+  display: inline-block;
+}
+.custom-preview .overlay img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.custom-preview .overlay .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(30, 20, 20); /* You can adjust the text color */
+}
+.overlay-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  pointer-events: none;
+}
+
